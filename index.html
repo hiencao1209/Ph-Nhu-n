@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website cá nhân của Hiền Cao.">
+  <title>Hiền Cao — Personal Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home">Hiền<span>.</span></a>
+    <nav>
+      <a href="#about">Giới thiệu</a>
+      <a href="#work">Công việc</a>
+      <a href="#contact">Liên hệ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Hiền Cao<span>.</span></h1>
+        <p class="lead">Chào mừng bạn đến với góc nhỏ trên Internet của mình.</p>
+        <p class="muted">Mình đang xây dựng, học hỏi và khám phá những điều thú vị trong công nghệ.</p>
+        <div class="actions">
+          <a class="button primary" href="#about">Tìm hiểu về mình</a>
+          <a class="button secondary" href="https://github.com/hiencao1209" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="avatar">HC</div>
+        <p>hiencao1209</p>
+        <small>GitHub profile</small>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">ABOUT ME</p>
+      <h2>Một chút về mình</h2>
+      <div class="about-grid">
+        <p>Mình là <strong>Hiền Cao</strong>. Đây là website cá nhân nơi mình giới thiệu bản thân, chia sẻ những gì mình đang làm và lưu lại các dự án mình yêu thích.</p>
+        <p>Mình thích tìm hiểu công nghệ, xây dựng sản phẩm và biến những ý tưởng nhỏ thành thứ có thể sử dụng được.</p>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <p class="eyebrow">WHAT I DO</p>
+      <h2>Mình đang tập trung vào</h2>
+      <div class="cards">
+        <article class="card"><span>01</span><h3>Học hỏi</h3><p>Không ngừng khám phá công nghệ và những cách làm mới.</p></article>
+        <article class="card"><span>02</span><h3>Xây dựng</h3><p>Biến ý tưởng thành những website và sản phẩm đơn giản, hữu ích.</p></article>
+        <article class="card"><span>03</span><h3>Chia sẻ</h3><p>Lưu lại hành trình, kinh nghiệm và những điều mình đã học được.</p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2>Hãy kết nối với mình.</h2>
+      <p class="muted">Bạn có thể tìm thấy mình trên GitHub hoặc gửi email trực tiếp.</p>
+      <div class="actions">
+        <a class="button primary" href="mailto:hiencnn97@gmail.com">Email cho mình</a>
+        <a class="button secondary" href="https://github.com/hiencao1209" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Hiền Cao. Built with HTML & CSS.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
